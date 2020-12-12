@@ -8,16 +8,28 @@ IoT Cloud Platform
 ● 주요 기능 설명
 
 ① AWS_IoT_DHT11 - 아두이노 센서값 AWS DB에 업로드 및 특정 DB 값에 따라 LED, Buzzer 제어
+
 ② Led.cpp - led pinMode 설정, Led.h의 함수를 이용한 led on/off 제어
+
 ③ Led.h - Led 관련 헤더파일
+
 ④ Buzzer.cpp - buzzer pinMode 설정, buzzer.h의 함수를 이용한 buzzer on/off 제어
+
 ⑤ Buzzer.h - buzzer에 관련 헤더파일
+
 ⑥ arduino_secrets.h - 인증서 등록, 데이터 연결
 
 ⑦ Android-RestAPI-master - 안드로이드에서 사물 목록 조회, 상태 조회/변경, 사물로그 확인
+
 ⑧ activity_device - 아두이노 센서값 (temperature, led, buzzer) 조회, buzzer의 db값을 변경하여 ON/OFF 제어 하기 위한 xml
+
 ⑨ GetThingShadow.java - Device Shadow를 통해 tag 이름의 센서값을 각각 받아옴
+
 ⑩ DeviceActivity.java - 변경을 위해 입력한 buzzer값을 db로 넘김
+
 ⑪ GetLog.java - 각 태그 이름에 맞는 센서값을 가져옴
 
 ⑫ RecordingDeviceDataJavaProject2, LogDeviceLambdaJavaProject, UpdateDeviceLambdaJavaProject, GetDeviceLambdaJavaProject, ListingDeviceLambdaJavaProject - eclipse lamda함수를 통해 AWS DB와 연동
+
+● 실행 동영상 Youtube Link
+- https://youtu.be/WtGpabtmpnc
